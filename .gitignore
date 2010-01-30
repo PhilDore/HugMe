@@ -1,0 +1,21 @@
+# user project files
+*.vcproj.*.user
+
+# object files
+Debug/*.sbr
+Debug/*.obj
+Release/*.obj
+Release/*.sbr
+
+# log files
+*.log
+
+# build logs
+Debug/BuildLog.htm
+Release/BuildLog.htm
+
+# executables
+Debug/Chat.exe*
+Release/Chat.exe*
+
+

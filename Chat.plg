@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Chat - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3B5D.tmp" with contents
+[
+strmiids.lib opengl32.lib glu32.lib glut32.lib libARd.lib libARvideod.lib libARgsub_MFCd.lib vfw32.lib chai3d_complete.lib winmm.lib hdl.lib ConnectDM_VC80.lib tinyxmld.lib TDVHandsTracking.lib depthCameraLibrary2.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Chat.pdb" /debug /machine:I386 /out:"Debug/Chat.exe" /pdbtype:sept /libpath:"lib\ARToolKit-2.72.1" /libpath:"..\chai3d[v1.61.1]\lib\msvc6" /libpath:"lib/Z-Cam" /libpath:"lib" /libpath:"lib\HandTracker" 
+".\Debug\ART.obj"
+".\Debug\CellphoneDlg.obj"
+".\Debug\CellphoneSocket.obj"
+".\Debug\CFinger3dofPointer.obj"
+".\Debug\CFingerDevices.obj"
+".\Debug\Chat.obj"
+".\Debug\ChatDlg.obj"
+".\Debug\ChatPacket.obj"
+".\Debug\ChatSocket.obj"
+".\Debug\ConnectDlg.obj"
+".\Debug\DepthCamera.obj"
+".\Debug\DepthImageComp.obj"
+".\Debug\DisplayDeviceArmband.obj"
+".\Debug\DisplayDeviceFinger.obj"
+".\Debug\DisplayDeviceJacket.obj"
+".\Debug\EmoticonDlg.obj"
+".\Debug\HugMe.obj"
+".\Debug\HumanModel.obj"
+".\Debug\ImageDataObject.obj"
+".\Debug\OptionDlg.obj"
+".\Debug\PatternDlg.obj"
+".\Debug\SerialPort.obj"
+".\Debug\StaticCanvas.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TactileArray.obj"
+".\Debug\VirtualPadDlg.obj"
+".\Debug\coder.obj"
+".\Debug\countbit.obj"
+".\Debug\dct.obj"
+".\Debug\Global.obj"
+".\Debug\huffman.obj"
+".\Debug\libr263.obj"
+".\Debug\mot_est.obj"
+".\Debug\pred.obj"
+".\Debug\quant.obj"
+".\Debug\rlib.obj"
+".\Debug\stream.obj"
+".\Debug\convert.obj"
+".\Debug\DGlobal.obj"
+".\Debug\GetBits.obj"
+".\Debug\GetBlk.obj"
+".\Debug\GetHdr.obj"
+".\Debug\GetPic.obj"
+".\Debug\GetVlc.obj"
+".\Debug\Idct.obj"
+".\Debug\Idctref.obj"
+".\Debug\Indices.obj"
+".\Debug\Recon.obj"
+".\Debug\Sac.obj"
+".\Debug\Sactbls.obj"
+".\Debug\Tmndec.obj"
+".\Debug\YuvToRgb.obj"
+".\Debug\Chat.res"
+"\Users\eid\chai3d[v1.61.1]\lib\msvc6\chai3d_complete.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3B5D.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : LNK6004: Debug/Chat.exe not found or not built by the last incremental link; performing full link
+StdAfx.obj : warning LNK4044: unrecognized option "manifestdependency:type='win32' name='Microsoft.VC80.DebugCRT' version='8.0.50608.0' processorArchitecture='x86' publicKeyToken='1fc8b3b9a1e18e3b'"; ignored
+StdAfx.obj : warning LNK4044: unrecognized option "manifestdependency:type='win32' name='Microsoft.VC80.DebugMFC' version='8.0.50608.0' processorArchitecture='x86' publicKeyToken='1fc8b3b9a1e18e3b'"; ignored
+StdAfx.obj : warning LNK4044: unrecognized option "manifestdependency:type='win32' name='Microsoft.VC80.DebugCRT' version='8.0.50608.0' processorArchitecture='x86' publicKeyToken='1fc8b3b9a1e18e3b'"; ignored
+StdAfx.obj : warning LNK4078: multiple ".CRT" sections found with different attributes (40301040)
+LINK : fatal error LNK1104: cannot open file "mfc80d.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+Chat.exe - 1 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
