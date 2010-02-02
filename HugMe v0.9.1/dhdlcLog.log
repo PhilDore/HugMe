@@ -1,0 +1,17 @@
+[dhdlcImp::dhdlcImp():17.58.09.0010] - Constructor called
+[dhdlcImp::init():17.58.09.0011] - init(Default Falcon,(null))
+[dhdlcImp::init():17.58.09.0264] - dhdOpen() returned 0
+[dhdlcImp::init():17.58.09.0824] - DeviceSN = 14Q952G0
+[dhdlcImp::init():17.58.09.0825] - Returning
+[dhdlcImp::shutdown():17.58.09.0966] - shutdown sequence
+[dhdlcImp::shutdown():17.58.09.0975] - update returned
+[dhdlcImp::shutdown():17.58.09.1084] - dhdClose() returned
+[dhdlcImp::shutdown():17.58.09.1084] - Returning
+[dhdlcImp::init():17.58.28.1824] - init(Default Falcon,(null))
+[dhdlcImp::init():17.58.28.2235] - dhdOpen() returned 0
+[dhdlcImp::init():17.58.28.2864] - DeviceSN = 14Q952G0
+[dhdlcImp::init():17.58.28.2865] - Returning
+[dhdlcImp::shutdown():17.58.28.3010] - shutdown sequence
+[dhdlcImp::shutdown():17.58.28.3018] - update returned
+[dhdlcImp::shutdown():17.58.28.3124] - dhdClose() returned
+[dhdlcImp::shutdown():17.58.28.3124] - Returning

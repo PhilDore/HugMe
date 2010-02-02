@@ -1,0 +1,396 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: active_x - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+active_x_msvc6.ocx - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: basic_shapes - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/basic_shapes.res" /d "NDEBUG" /d "_AFXDLL" "D:\chai3d\chai3d\examples\msvc6\basic_shapes\basic_shapes.rc"" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPA4.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/basic_shapes.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\basic_shapes\basic_shapes.cpp"
+"D:\chai3d\chai3d\examples\msvc6\basic_shapes\basic_shapesDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPA4.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPA5.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/basic_shapes.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\basic_shapes\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPA5.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPA6.tmp" with contents
+[
+winmm.lib opengl32.lib chai3d_complete.lib glu32.lib PhantomDriver.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/basic_shapes_msvc6.pdb" /machine:I386 /nodefaultlib:"msvcprt.lib libc.lib msvcp60.lib" /out:"../../../bin/basic_shapes_msvc6.exe" /libpath:"../../../lib/msvc6" 
+.\Release\basic_shapes.obj
+.\Release\basic_shapesDlg.obj
+.\Release\StdAfx.obj
+.\Release\basic_shapes.res
+]
+Creating command line "link.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPA6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+basic_shapes.cpp
+basic_shapesDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+basic_shapes_msvc6.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: board_tester - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/board_tester.res" /d "NDEBUG" /d "_AFXDLL" "D:\chai3d\chai3d\examples\msvc6\board_tester\board_tester.rc"" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPA8.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/board_tester.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\board_tester\board_tester.cpp"
+"D:\chai3d\chai3d\examples\msvc6\board_tester\board_testerDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPA8.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPA9.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/board_tester.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\board_tester\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPA9.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPAA.tmp" with contents
+[
+chai3d_complete.lib DLPORTIO.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/board_tester_msvc6.pdb" /machine:I386 /out:"../../../bin/board_tester_msvc6.exe" /libpath:"../../../lib/msvc6/" 
+.\Release\board_tester.obj
+.\Release\board_testerDlg.obj
+.\Release\StdAfx.obj
+.\Release\board_tester.res
+]
+Creating command line "link.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPAA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+board_tester.cpp
+board_testerDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+board_tester_msvc6.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: clock - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/clock.res" /d "NDEBUG" /d "_AFXDLL" "D:\chai3d\chai3d\examples\msvc6\clock\clock.rc"" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPAC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/clock.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\clock\clock.cpp"
+"D:\chai3d\chai3d\examples\msvc6\clock\clockDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPAC.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPAD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/clock.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\clock\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPAD.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPAE.tmp" with contents
+[
+winmm.lib chai3d_complete.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/clock_msvc6.pdb" /machine:I386 /out:"../../../bin/clock_msvc6.exe" /libpath:"../../../lib/msvc6" 
+.\Release\clock.obj
+.\Release\clockDlg.obj
+.\Release\StdAfx.obj
+.\Release\clock.res
+]
+Creating command line "link.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPAE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+clock.cpp
+clockDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+clock_msvc6.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: dynamic_ode - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/dynamic_ode.res" /d "NDEBUG" /d "_AFXDLL" "D:\chai3d\chai3d\examples\msvc6\dynamic_ode\dynamic_ode.rc"" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB0.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /I "include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/dynamic_ode.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\dynamic_ode\CODEMesh.cpp"
+"D:\chai3d\chai3d\examples\msvc6\dynamic_ode\dynamic_ode.cpp"
+"D:\chai3d\chai3d\examples\msvc6\dynamic_ode\dynamic_odeDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB0.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB1.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /I "include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/dynamic_ode.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\dynamic_ode\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB1.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB2.tmp" with contents
+[
+winmm.lib opengl32.lib chai3d_complete.lib glu32.lib PhantomDriver.lib ode.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/dynamic_ode_msvc6.pdb" /machine:I386 /nodefaultlib:"msvcprt.lib libc.lib msvcp60.lib" /out:"../../../bin/dynamic_ode_msvc6.exe" /libpath:"../../../lib/msvc6" /libpath:"../../../external\PhantomDriver\lib\MSVC" /libpath:"lib/ode" 
+.\Release\CODEMesh.obj
+.\Release\dynamic_ode.obj
+.\Release\dynamic_odeDlg.obj
+.\Release\StdAfx.obj
+.\Release\dynamic_ode.res
+]
+Creating command line "link.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CODEMesh.cpp
+dynamic_ode.cpp
+dynamic_odeDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+dynamic_ode_msvc6.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: mass_springs - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/mass_springs.res" /d "NDEBUG" /d "_AFXDLL" "D:\chai3d\chai3d\examples\msvc6\mass_springs\mass_springs.rc"" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB4.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/mass_springs.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\mass_springs\mass_springs.cpp"
+"D:\chai3d\chai3d\examples\msvc6\mass_springs\mass_springsDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB4.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB5.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/mass_springs.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\mass_springs\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB5.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB6.tmp" with contents
+[
+winmm.lib opengl32.lib chai3d_complete.lib glu32.lib PhantomDriver.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/mass_springs_msvc6.pdb" /machine:I386 /nodefaultlib:"msvcprt.lib libc.lib msvcp60.lib" /out:"../../../bin/mass_springs_msvc6.exe" /libpath:"../../../lib/msvc6" /libpath:"../../../external\PhantomDriver\lib\MSVC" 
+.\Release\mass_springs.obj
+.\Release\mass_springsDlg.obj
+.\Release\StdAfx.obj
+.\Release\mass_springs.res
+]
+Creating command line "link.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+mass_springs.cpp
+mass_springsDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+mass_springs_msvc6.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: math - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/math.res" /d "NDEBUG" /d "_AFXDLL" "D:\chai3d\chai3d\examples\msvc6\math\math.rc"" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB8.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/math.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\math\math.cpp"
+"D:\chai3d\chai3d\examples\msvc6\math\mathDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB8.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB9.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/math.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\math\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPB9.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPBA.tmp" with contents
+[
+winmm.lib chai3d_complete.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/math_msvc6.pdb" /machine:I386 /nodefaultlib:"msvcprt.lib libc.lib msvcp60.lib" /out:"../../../bin/math_msvc6.exe" /libpath:"../../../lib/msvc6" 
+.\Release\math.obj
+.\Release\mathDlg.obj
+.\Release\StdAfx.obj
+.\Release\math.res
+]
+Creating command line "link.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPBA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+math.cpp
+mathDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+math_msvc6.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: object_loader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/object_loader.res" /d "NDEBUG" /d "_AFXDLL" "D:\chai3d\chai3d\examples\msvc6\object_loader\object_loader.rc"" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPBC.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/object_loader.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\object_loader\object_loader.cpp"
+"D:\chai3d\chai3d\examples\msvc6\object_loader\object_loaderDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPBC.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPBD.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/object_loader.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\object_loader\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPBD.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPBE.tmp" with contents
+[
+winmm.lib opengl32.lib chai3d_complete.lib glu32.lib PhantomDriver.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/object_loader_msvc6.pdb" /machine:I386 /nodefaultlib:"msvcprt.lib libc.lib msvcp60.lib" /out:"../../../bin/object_loader_msvc6.exe" /libpath:"../../../lib/msvc6" /libpath:"../../../external\PhantomDriver\lib\MSVC" 
+.\Release\object_loader.obj
+.\Release\object_loaderDlg.obj
+.\Release\StdAfx.obj
+.\Release\object_loader.res
+]
+Creating command line "link.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPBE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+object_loader.cpp
+object_loaderDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+object_loader_msvc6.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: record_player - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/record_player.res" /d "NDEBUG" /d "_AFXDLL" "D:\chai3d\chai3d\examples\msvc6\record_player\record_player.rc"" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPC0.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/record_player.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\record_player\record_player.cpp"
+"D:\chai3d\chai3d\examples\msvc6\record_player\record_playerDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPC0.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPC1.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/record_player.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\record_player\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPC1.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPC2.tmp" with contents
+[
+winmm.lib opengl32.lib chai3d_complete.lib glu32.lib PhantomDriver.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/record_player_msvc6.pdb" /machine:I386 /nodefaultlib:"msvcprt.lib libc.lib msvcp60.lib" /out:"../../../bin/record_player_msvc6.exe" /libpath:"../../../lib/msvc6" /libpath:"../../../external\PhantomDriver\lib\MSVC" 
+.\Release\record_player.obj
+.\Release\record_playerDlg.obj
+.\Release\StdAfx.obj
+.\Release\record_player.res
+.\bass.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPC2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+record_player.cpp
+record_playerDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+record_player_msvc6.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: sounds - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/sounds.res" /d "NDEBUG" /d "_AFXDLL" "D:\chai3d\chai3d\examples\msvc6\sounds\sounds.rc"" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPC4.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/sounds.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\sounds\CSound.cpp"
+"D:\chai3d\chai3d\examples\msvc6\sounds\CSoundMesh.cpp"
+"D:\chai3d\chai3d\examples\msvc6\sounds\sounds.cpp"
+"D:\chai3d\chai3d\examples\msvc6\sounds\soundsDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPC4.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPC5.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_MSVC" /Fp"Release/sounds.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\chai3d\chai3d\examples\msvc6\sounds\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPC5.tmp" 
+Creating temporary file "C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPC6.tmp" with contents
+[
+winmm.lib opengl32.lib chai3d_complete.lib glu32.lib PhantomDriver.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/sounds_msvc6.pdb" /machine:I386 /nodefaultlib:"msvcprt.lib libc.lib msvcp60.lib" /out:"../../../bin/sounds_msvc6.exe" /libpath:"../../../lib/msvc6" /libpath:"../../../external\PhantomDriver\lib\MSVC" 
+.\Release\CSound.obj
+.\Release\CSoundMesh.obj
+.\Release\sounds.obj
+.\Release\soundsDlg.obj
+.\Release\StdAfx.obj
+.\Release\sounds.res
+.\bass.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\FRANCO~1\LOCALS~1\Temp\RSPC6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CSound.cpp
+CSoundMesh.cpp
+sounds.cpp
+soundsDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+sounds_msvc6.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,14 +1,9 @@
-# user project files
-*.vcproj.*.user
+# user specific files
+*.user
 
 # object files
-Debug/*.sbr
-Debug/*.obj
-Release/*.obj
-Release/*.sbr
-
-# log files
-*.log
+*.sbr
+*.obj
 
 # build logs
 Debug/BuildLog.htm
